@@ -1,0 +1,86 @@
+<DOCTYPR html>
+	
+<html>
+
+<head>
+
+	<title>registration form</title>
+
+	<style>}
+            form {
+                width:25%;
+                background:grey;
+                opacity:0.5;
+            }
+	    
+            body {
+		background-image:url("sahil.jpg");
+                background-repeat:no-repeat;
+                background-size:cover;
+    		
+            }
+	<br>
+	<br>
+            h1 {
+              color:line;margin:10px;
+            }
+            form {
+                width:25%;
+                background:grey;
+                opacity:0.5;
+		align:center;
+            }
+            input[type="text"],[type="password"],[type="number"],[type="date"]  {
+            width:90%;
+            height:40px;
+            font-size:20px;
+            margin:10px;
+            outline:none; 
+            text-align:center;
+            } 
+            input[type="submit"] {
+              width:90%;
+              height:40px;
+              color:white;
+              background:blue;
+              cursor:pointer;
+              outline:none; 
+              margin:10px;
+              font-size:18px;
+            } 
+              
+ 	</style>
+</head>
+
+<body>
+
+<center>
+   <h1> create your account</h1>   
+   <form method="post">
+   <input type="text" placeholder="first name"/></br>
+   <input type="text" placeholder="last name"/></br>
+   <input type="password" placeholder="password"/></br>
+   <input type="number" placeholder="mobile"/></br>
+   <input type="date"/></br>
+   <input type="submit" value="register"/>
+   <h2>Login</h2>
+	</br>
+	  
+  </form>
+
+<script type="text/javascript">
+
+
+	  const scriptURL = 'https://script.google.com/macros/s/AKfycbwyB2K0L674bgaV1LZgcPbPfZoCDPcpVow1QtM3gnW68n62g2XkCOUbPdxG4_ik1Kvq/exec'
+            const form = document.forms['google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("You have successfully submitted."))
+                .catch(error => console.error('Error!', error.message))
+            })
+  </script>
+
+</body>
+</html>

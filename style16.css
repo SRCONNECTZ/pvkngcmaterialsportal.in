@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;')
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+.SR{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(statistics.jpg);
+	background-position: right;
+	background-image: cover;
+	position: absolute;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.side-bar{
+	background: rgba(255,225,225,0.1);
+	background-filter: blur(15px);
+	width: 290px;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 100;
+	overflow-y: auto;
+	transition: 0.6s ease;
+	transition-property: left;
+}
+.side-bar.active{
+	left: 0;
+}
+
+.side-bar .menu{
+	width: 100%;
+	margin-top: 80px;
+}
+.side-bar .menu .item{
+	position: relative;
+	cursor: pointer;
+}
+.side-bar .menu .item a{
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	display: block;
+	padding: 5px 30px;
+	line-height: 55px;
+}
+
+.side-bar .menu .item a:hover{
+	background: #8621F8;
+	transition: 0.3s ease;
+}
+
+.side-bar .menu .item i{
+	margin-right: 15px;
+}
+
+.side-bar .menu .item a .dropdown{
+	position: absolute;
+	right: 0;
+	margin: 20px;
+	transition: 0.3s ease;
+}
+
+.side-bar .menu .item .sub-menu{
+	background: rgba(255,255,255,0.1);
+	display: none;
+}
+.side-bar .menu .item .sub-menu a{
+	padding-left: 80px;
+}
+
+.rotate{
+	transform: rotate(90deg);
+}
+
+.close-btn{
+	position: absolute;
+	color: #fff;
+	font-size: 20px;
+	right: 0;
+	margin: 25px;
+	cursor: pointer;
+}
+
+.menu-btn1{
+	position: absolute;
+	color: #fff;
+	font-size: 20px;
+	right: 0;
+	margin: 25px;
+	cursor: pointer;
+}
+
+.menu-btn1 .active{
+	position: absolute;
+	color: #fff;
+	font-size: 20px;
+	margin: 25px;
+	cursor: pointer;
+}
+
+.first{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: -20px;
+}
+.first h2{
+	font-size: 36px;
+	font-weight: 600;
+	text-align: center;
+	color: #fff;
+}
+
+/*---------------Save-----------*/
+
+body{
+	display: flex;
+	align-items: left;
+	justify-content: left;
+	min-height: 10vh;
+}
+.wrapper{
+	width: 350px;
+	padding: 22px;
+	padding-left: 600px;
+	border-radius: 5px;
+}
+.wrapper2{
+	width: 350px;
+	padding: 15px;
+	padding-left: 600px;
+	border-radius: 5px;
+}
+
+section .row{
+	background: #e9f0ff;
+	margin-bottom: 15px;
+	list-style: none;
+	padding: 3px 8px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+section .row i{
+	font-size: 30px;
+	color: #6990f2;
+}
+section .row .content{
+	width: 100%;
+	margin-left: 15px;
+}
+section .details span{
+	font-size: 14px;
+}
+.p .row .content{
+	width: 100%;
+	margin-left: 15px;
+}
+
+
+
+
+/*----------Footer-------------*/
+
+.Footer{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.Footer h1{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+
+.p3{
+	margin: 10px 0 40px;
+	font-size: 14px;
+	color: #fff;
+}
+
+p{
+	color: #777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+
+}
+
+.icons .fa{
+	color: #f44336;
+	margin: 0 13px;
+	cursor: pointer;
+	padding: 18px 0;
+}
+.fa-heart-o{
+	color: #f44336;
+}
+
+
+
+
+

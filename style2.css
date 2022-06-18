@@ -1,0 +1,239 @@
+*
+{
+padding: 0;
+margin: 0;
+}
+body{
+	background-image: url(grad.jpg);
+	background-size:fill;
+	background-repeat: no-repeat;
+	background-blend-mode: soft-light;
+	background-position: center;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.menu-bar{
+	background: rgb(0,100,0);
+	text-align: center;
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+.menu-bar ul li{
+	width: 120px;
+	margin: 10px;
+	padding: 10px;
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+	background: #2bab0d;
+	background-radius: 3px;
+}
+.menu-bar .fa
+{
+	margin-right: 8px;
+}
+.sub-menu-1
+{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+	display: block;
+	position: absolute;
+	background: rgb(0,100,0);
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+	display: block;
+	margin: 10px;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+	border-bottom: none; 
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+	color: #b2ff00;
+}
+
+
+.sub-menu-4
+{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-4
+{
+	display: block;
+	position: absolute;
+	background: rgb(0,100,0);
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-4 ul
+{
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-4 ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-4 ul li:last-child
+{
+	border-bottom: none; 
+}
+.menu-bar ul li:hover .sub-menu-4 ul li a:hover
+{
+	color: #b2ff00;
+}
+
+
+.sub-menu-5
+{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-5
+{
+	display: block;
+	position: absolute;
+	background: rgb(0,100,0);
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-5 ul
+{
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-5 ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-5 ul li:last-child
+{
+	border-bottom: none; 
+}
+.menu-bar ul li:hover .sub-menu-5 ul li a:hover
+{
+	color: #b2ff00;
+}
+.fa-angle-right
+{
+	float: right;
+}
+.sub-menu-6
+{
+	display: none;
+
+}
+.hover-me:hover .sub-menu-6
+{
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	margin-right: 40px;
+	background: rgb(0,100,0);
+}
+.sub-menu-8
+
+{
+	display: none;
+}
+.hover-me:hover .sub-menu-8
+{
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	background: rgb(0,100,0);
+}
+
+
+.sub-menu-7
+{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-7
+{
+	display: block;
+	position: absolute;
+	background: rgb(0,100,0);
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-7 ul
+{
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-7 ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-7 ul li:last-child
+{
+	border-bottom: none; 
+}
+.menu-bar ul li:hover .sub-menu-7 ul li a:hover
+{
+	color: #b2ff00;
+}
+
+
+
+
+.menu-bar2{
+	background: none;
+	text-align: left;
+}
+.menu-bar2 ul{
+	display: inline-table;
+	list-style: none;
+}
+.menu-bar2 ul li{
+	width: 240px;
+	height: 199px;
+	position: relative;
+	margin: 0;
+	background: rgb(0,0,90);
+	padding: 1px;
+	overflow: hidden;
+.menu-bar2 ul li a{
+	text-decoration: none;
+	color: #fff;
+}

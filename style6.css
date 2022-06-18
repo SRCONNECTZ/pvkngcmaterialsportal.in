@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;')
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+body{
+	display: flex;
+	padding-left: 300px;
+	padding-top: 45px;
+	align-items: right;
+	justify-content: left;
+	min-height: 10vh;
+}
+.wrapper{
+	width: 430px;
+	padding: 30px;
+	background: #fff;
+	border-radius: 5px;
+}
+.wrapper header{
+	color: #6990f2;
+	font-size: 27px;
+	font-weight: 600;
+	text-align: center;
+}
+.wrapper form{
+	height: 100px;
+	display: flex;
+	margin: 30px 0;
+	cursor: pointer;
+	align-items: left;
+	justify-content: left;
+	flex-direction: column;
+	border-radius: 15px;
+	border: 2px dashed #6990f2;
+}
+form :where(i, p){
+	color: #6990f2;
+}
+form i{
+	font-size: 50px;
+}
+form p{
+	font-size: 16px;
+	margin-top: 15px;
+}
+section .row{
+	background: #e9f0ff;
+	margin-bottom: 5px;
+	list-style: none;
+	padding: 5px 20px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+section .row i{
+	font-size: 30px;
+	color: #6990f2;
+}
+section .row .content{
+	width: 100%;
+	margin-left: 15px;
+}
+section .details span{
+	font-size: 14px;
+}
+.p .row .content{
+	width: 100%;
+	margin-left: 15px;
+}
+.p .details{
+	display: flex;
+	align-items: center;
+	margin-bottom: 7px;
+	justify-content: space-between;
+}
+
+.section .fa{
+	size: 5px;
+}
+
+<br>
+
+<br>
+
+
+.b2{
+	display: flex;
+	align-items: stretch;
+	padding-top: 45px;
+	padding-right: 3000px;
+	justify-content: left;
+	min-height: 10vh;
+	background: #6990f2;
+}
+.b2 .wrapper{
+	align-items: right;
+}
+.wrapper{
+	width: 430px;
+	padding: 30px;
+	background: #fff;
+	border-radius: 5px;
+}
+.wrapper header{
+	color: #6990f2;
+	font-size: 27px;
+	font-weight: 600;
+	text-align: center;
+}
+.wrapper form{
+	height: 100px;
+	display: flex;
+	margin: 30px 0;
+	cursor: pointer;
+	align-items: right;
+	justify-content: right;
+	flex-direction: column;
+	border-radius: 15px;
+	align-items: right;
+	border: 2px dashed #6990f2;
+}
+form :where(i, p){
+	color: #6990f2;
+}
+form i{
+	font-size: 50px;
+}
+form p{
+	font-size: 16px;
+	margin-top: 15px;
+}
+section .row{
+	background: #e9f0ff;
+	margin-bottom: 5px;
+	list-style: none;
+	padding: 5px 20px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+section .row i{
+	font-size: 30px;
+	color: #6990f2;
+}
+section .row .content{
+	width: 100%;
+	margin-left: 15px;
+}
+section .details span{
+	font-size: 14px;
+}
+.p .row .content{
+	width: 100%;
+	margin-left: 15px;
+}
+.p .details{
+	display: flex;
+	align-items: center;
+	margin-bottom: 7px;
+	justify-content: space-between;
+}
+
+.section .fa{
+	size: 5px;
+}
